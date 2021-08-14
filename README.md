@@ -11,12 +11,12 @@ cd to, src/apps/; make;
 cd to, model/2D_models/Marmous_284x461x10, build the true and initial velocity model, vp_true and vp_ini model; 
 and create a coordinate file with mkcoord.m
 
-# step 3: do forward modelling 
+# step 3: forward modelling 
 cd working/;
 change parameters in working/Marmous_284x461x10/parfile_a2dmod.sh 
 make a2dmod, start do forward modeling, the data are stored in /results/2D_models/Marmous_284x461x10/a2d_csg/
 
-# step 4: do multiscale phase inversion
+# step 4: multiscale phase inversion
 cd to, working/;
 change parameters in working/Marmous_284x461x10/parfile_phainv.sh; 
 make a2dPhaInv, start do inversion, the results are stored in /results/2D_models/Marmous_284x461x10/mpi/ 
