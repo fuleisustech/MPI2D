@@ -15,3 +15,5 @@ and create a coordinate file with mkcoord.m
 
 # step 3
 cd working/
+make a2dmod, start do forward modeling
+
