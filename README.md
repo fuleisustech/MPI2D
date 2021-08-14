@@ -1,5 +1,5 @@
 # MPI2D
-This is a seismic data inversion package for multiscale phase inversion. You may need intel compiler.
+This is a seismic data inversion package for multiscale phase inversion (MPI). You may need intel compiler.
 
 # step 1: compile codes
 cd to src/, modify Line 4 according to the location of MPI2D in Makefile.config
