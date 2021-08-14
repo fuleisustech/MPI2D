@@ -4,8 +4,7 @@ NX=461
 NZ=284
 DX=10
 DZ=10
-VEL_FILE=/home/ful/Project/MPI2D/model/2D_models/Marmous_284x461x10/vel.bin
-#VEL_FILE=/home/ful/Project/MPI2D/model/2D_models/Marmous_284x461x10/vp_homo.bin
+VEL_FILE=/home/ful/Project/MPI2D/model/2D_models/Marmous_284x461x10/vp_true.bin
 #Data PARAMETER
 IsAper=.false.
 X0=0

@@ -26,19 +26,16 @@ NZ=284
 NX=461
 DX=10
 
-#VEL_FILE=/home/ful/project/MPI2D/model/2D_models/Marmous_284x461x10/vp0_fine.bin
-#VEL_FILE=/home/ful/project/MPI2D/model/2D_models/Marmous_284x461x10/vsmooth_fine.bin
-#VEL_FILE=/home/ful/project/MPI2D/model/2D_models/Marmous_284x461x10/vp0_bad.bin
-VEL_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/vel_48.bin
+VEL_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/vp_ini.bin
 
-IsMask=.true.
+IsMask=.false.
 MASK_FILE=/home/ful/project/MPI2D/model/2D_models/Marmous_284x461x10/bottom_mask.bin
 
 VMIN=1500
 VMAX=4700
 
 IsSeisRecons=.false.
-CSG_RECONS=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/csg_recon_
+CSG_RECONS=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi/csg_recon_
 
 #INV_TYPE=CG
 INV_TYPE=SD
@@ -55,10 +52,7 @@ DT_OUT=0.001
 SORT_IN=CSG
 COORDFILE_TYPE=ASCII
 COORD_IN_FILE=/home/ful/project/MPI2D/model/2D_models/Marmous_284x461x10/coord_csg_full.dat
-#CSG_OUT=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/a2d_csg/csg_
-CSG_OUT=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/a2d_csg_4-50Hz/csg_4-50Hz_
-CSG_DIR=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/a2d_csg/csg0_
-CSG_TMP=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/csgtmp_
+CSG_OUT=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/a2d_csg/csg_
 DATA_TYPE=p
 
 IsTaper_dir=.false.
@@ -100,16 +94,16 @@ IsSaveBC=.true.
 IsSaveWF=.false.
 
 #RESULT PARAMETER
-LOG_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/phainv.log
+LOG_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi/phainv.log
 IsPreStackImg=.false.
-PRE_IMG_OUT=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/img_is_
-IMAGE_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/vel_
-GREEN_OUT=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/g_
-GK1_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/gk_
+PRE_IMG_OUT=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi/img_is_
+IMAGE_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi/vel_
+GREEN_OUT=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi/g_
+GK1_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi/gk_
 # RESIDUAL FILE
-RES_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/phainv_res.bin
+RES_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi/phainv_res.bin
 
-IMAGE_ILLUM_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi_2dfft_badini_convsou_flip/mpi/illum_
+IMAGE_ILLUM_FILE=/home/ful/project/MPI2D/results/2D_models/Marmous_284x461x10/mpi/illum_
 
 #PARALLEL PARAMETER
 IsShotConti=.true.
