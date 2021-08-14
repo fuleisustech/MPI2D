@@ -1,0 +1,4 @@
+module load fftw
+module switch PrgEnv-cray PrgEnv-intel
+module switch craype-haswell craype-sandybridge
+

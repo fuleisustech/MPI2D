@@ -1,0 +1,7 @@
+rm libhilbert.a
+icc -O2 -c hilbert.o hilbert.c
+icc -O2 -c convolution.o convolution.c
+ifort -O2 -c fft.o fft.f
+ifort -O2 -c hilbfft.o hilbfft.f90
+ar crv libhilbert.a  convolution.o fft.o hilbfft.o hilbert.o
+rm *.o 
