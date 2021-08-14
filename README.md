@@ -12,3 +12,6 @@ cd to src/apps/, make;
 cd to model/2D_models/Marmous_284x461x10, 
 build the true and initial velocity model, vp_true and vp_ini model; 
 and create a coordinate file with mkcoord.m
+
+# step 3
+cd working/
